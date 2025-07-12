@@ -14,7 +14,6 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -24,7 +23,7 @@ main {
 }
 
 .happy-new-year-bg{
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: url('/resources/linear.png'), url('/resources/Banner\ Image.png');
     background-repeat: no-repeat;
     display: flex;
     height: 600px;
@@ -78,4 +77,51 @@ main {
 
 #new-year-photo {
     margin-bottom: 120px;
+}
+
+.midnight-party-bg{
+    background-image: url('/resources/linear.png'), url('/resources/Vectorrr.png');
+    display: flex;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    align-items: center;
+    margin-bottom: 120px;
+    gap: 40px;;
+}
+
+.midnight-party-container {
+    max-width: 690px;
+    text-align: left;
+    padding-left: 126px;
+}
+
+.midnight-party-title{
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.midnight-party-description{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: regular;
+    margin-bottom: 48px;
+}
+
+.btn-midnight-party {
+    border: none;
+    background: none;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 32px;
+}
+
+.midnight-party-image{
+    max-height: 464px;
+    max-width: 320px;
 }
