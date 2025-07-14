@@ -125,3 +125,152 @@ main {
     max-height: 464px;
     max-width: 320px;
 }
+
+.event-details{
+    background-image: url('/resources/Vector.png');
+    background-repeat: no-repeat;
+    height: 482px;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.event-details-container {
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+}
+
+.event-detail{
+    font-size: 32px;
+    color: #070211;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.btn-event-details {
+    background-color: #FF0000;
+    max-height: 56px;
+    max-width: 167px;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+
+.best-offer{
+    display: flex;
+    gap: 70px;
+    align-items: center;;
+    margin-bottom: 120px;
+}
+
+.best-offer-container{
+    display: block;
+    text-align: left;
+    max-width: 380px;
+}
+
+.best-offer-container h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.best-offer-container h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.best-offer-container p{
+    font-size: 20px;
+    color:#070211;
+    opacity: 0.6;
+}
+
+.best-offer-img{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.year-wish{
+    display: block;
+    text-align: left;
+}
+
+.year-wish h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.year-wish p{
+    font-size: 20px;
+    color:#070211;
+    opacity: 0.6;
+    margin-bottom: 43px;
+}
+
+.holiday-sale{
+    width: 1320px;
+    margin: 0 auto 120px;
+}
+
+.holiday-sale-description{
+    text-align: center;
+}
+
+.holiday-sale-description h4 {
+    font-size: 24px;
+    color: #070211;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-sale-description h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-description p{
+    font-size: 20px;
+    color: #070211;
+    opacity: 0.6;
+    margin: 0 auto 64px;
+    max-width: 1060px;
+}
+
+.gifts{
+    width: 1320px;
+    height: 660px;
+    display: flex;
+    background-image: url('/resources/Rectangle\ 2.png'), url('/resources/Rectangle\ 1.png');
+    background-position: bottom, top right;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.gift-box{
+    width: 730px;
+}
+
+.gift-box .box{
+    width: 450px;
+    padding-left: 130px;
+}
+
+.discount{
+    margin-bottom: 230p;
+}
